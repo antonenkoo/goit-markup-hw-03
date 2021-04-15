@@ -55,9 +55,13 @@ body {
 button{
   cursor: pointer;
 }
-.block {
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.block{
   display: flex;
-
 }
 .webstudio {
   font-family: "Raleway", sans-serif;
@@ -102,7 +106,6 @@ button{
   text-align: none;
   margin-top: 6px;
   margin-right: 50px;
-  margin-left: auto;
 }
 .con-item{
   margin-top: 6px;
