@@ -356,6 +356,7 @@ font-style: normal;
   margin-right: 30px;
   margin-bottom: 30px;
   padding-bottom: 20px;
+  border-bottom: 1px solid rgba(238, 238, 238, 1)
 }
 .projects-item:last-child {
   margin-right: 0;
