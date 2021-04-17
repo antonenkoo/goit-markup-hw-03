@@ -147,6 +147,8 @@ font-style: normal;
 .first-section {
   background: #2f303a;
   color: #fff;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .main-title {
   color: #fff;
@@ -157,7 +159,6 @@ font-style: normal;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   margin: 0 auto 30px auto;
   width: 696px;
 }
@@ -178,19 +179,18 @@ font-style: normal;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-bottom: 200px;
   transition: all 300ms ease;
 }
 .button:hover {
-  margin-bottom: 185px;
   width: 250px;
   height: 65px;
   border-radius: 100px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
 }
+
 .about-list {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: flex;
 }
 .about-item{
@@ -223,18 +223,21 @@ font-style: normal;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.images{
+  padding-bottom: 94px;
 }
 .image-list{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 188px;
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
 }
 .team-title{
   font: var(--font);
@@ -260,6 +263,7 @@ font-style: normal;
   0px 1px 1px rgba(0, 0, 0, 0.14), 
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 .team-names{
   font-weight: 500;
@@ -278,7 +282,6 @@ font-style: normal;
   color: var(--grey);
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 /* footer */
 .footer {
