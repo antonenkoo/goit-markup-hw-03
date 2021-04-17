@@ -238,6 +238,7 @@ font-style: normal;
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title{
   font: var(--font);
@@ -247,14 +248,11 @@ font-style: normal;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  margin-top: 188px;
 }
 .about-team{
   
   display: flex;
-  margin-bottom: 94px;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 .team-card {
   background: #fff;
@@ -272,7 +270,6 @@ font-style: normal;
   letter-spacing: 0.03em;
   color: var(--color-title);
   text-align: center;
-  margin-top: 30px;
 }
 .team-discription {
   font-family: var(--font);
