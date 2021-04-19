@@ -12,54 +12,60 @@
         rel="stylesheet">
 </head>
 <body>
-    <header class="container">
-        <nav>
-            <a class="webstudio" href="./index.html"><span class="web">Web</span>Studio</a>
-            <ul class="menu list">
-                <li class="list-item"><a class="list-studio" href="./index.html">Студия</a>
-                <li class="list-item"><a class="list-studio" href="./portfolio.html">Портфолио</a>
-                <li class="list-item"><a class="list-studio" href="">Контакты</a>
-            </ul>
-        </nav>
-        <div>
-            <ul class="con-list">
-                <li class="con-item"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="con-item"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+    <header>
+        <div class="container">
+                <nav>
+                    <a class="webstudio" href="./index.html"><span class="web">Web</span>Studio</a>
+                    <ul class="menu list">
+                        <li class="list-item"><a class="list-studio" href="./index.html">Студия</a>
+                        <li class="list-item"><a class="list-studio" href="./portfolio.html">Портфолио</a>
+                        <li class="list-item"><a class="list-studio" href="">Контакты</a>
+                    </ul>
+                </nav>
+            <div class="container">
+                <ul class="con-list">
+                    <li class="con-item"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="con-item"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
-        <section class="first-section">
-            <div class="container">
-                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <div class="center">
-                    <button class="button" type="button">Заказать услугу</button>
+        <section>
+            <div class="first-section">
+                <div class="container">
+                    <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                    <div class="center">
+                        <button class="button" type="button">Заказать услугу</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section  class="container">
-            <ul class="about-list">
-                <li class="about-item">
-                    <h3 class="mini-title">Внимание к деталям</h3>
-                    <p class="li-discription">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="mini-title">Пунктуальность</h3>
-                    <p class="li-discription">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="mini-title">Планирование</h3>
-                    <p class="li-discription">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="mini-title">Современные технологии</h3>
-                    <p class="li-discription">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+        <section>
+            <div  class="container about-section">
+                <ul class="about-list">
+                    <li class="about-item">
+                        <h3 class="mini-title">Внимание к деталям</h3>
+                        <p class="li-discription">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="mini-title">Пунктуальность</h3>
+                        <p class="li-discription">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="mini-title">Планирование</h3>
+                        <p class="li-discription">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="mini-title">Современные технологии</h3>
+                        <p class="li-discription">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="container images">
-            <div>
+        <section>
+            <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="image-list">
                     <li>
@@ -91,24 +97,44 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="about-team">
                     <li class="team-card">
-                        <img src="./images/photo.jpg" height="260" width="270" alt="Игорь дизайнер">
-                        <h3 class="team-names">Игорь Демьяненко</h3>
-                        <p class="team-discription">Product Designer</p>
+                        <img src="./images/photo.jpg" 
+                        height="260" 
+                        width="270" 
+                        alt="Игорь дизайнер">
+                        <div class="team-card-text">
+                            <h3 class="team-names">Игорь Демьяненко</h3>
+                            <p class="team-discription">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo1.jpg" height="260" width="270" alt="Ольга фронтэнд разработчик">
-                        <h3 class="team-names">Ольга Репина</h3>
-                        <p class="team-discription">Frontend Developer</p>
+                        <img src="./images/photo1.jpg" 
+                        height="260" 
+                        width="270" 
+                        alt="Ольга фронтэнд разработчик">
+                        <div class="team-card-text">
+                            <h3 class="team-names">Ольга Репина</h3>
+                            <p class="team-discription">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo2.jpg" height="260" width="270" alt="Николай маркетинг">
-                        <h3 class="team-names">Николай Тарасов</h3>
-                        <p class="team-discription">Marketing</p>
+                        <img src="./images/photo2.jpg" 
+                        height="260" 
+                        width="270" 
+                        alt="Николай маркетинг">
+                        <div class="team-card-text">
+                            <h3 class="team-names">Николай Тарасов</h3>
+                            <p class="team-discription">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo3.jpg" height="260" width="270" alt="Михаил дизайнер">
-                        <h3 class="team-names">Михаил Ермаков</h3>
-                        <p class="team-discription">UI Designer</p>
+                        <img src="./images/photo3.jpg" 
+                        height="260" 
+                        width="270" 
+                        alt="Михаил дизайнер">
+                        <div class="team-card-text">
+                            <h3 class="team-names">Михаил Ермаков</h3>
+                            <p class="team-discription">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
