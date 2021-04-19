@@ -117,7 +117,8 @@ nav {
 }
 .con-list{
   display: flex;
-  margin: auto;
+  margin-left: auto;
+
 }
 .con-item{
   margin-right: 50px;
