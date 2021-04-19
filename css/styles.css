@@ -336,7 +336,6 @@ font-style: normal;
 }
 .btn-list {
   display: flex;
-  padding-bottom: 30px;
   justify-content: center;
 }
 .btn-list-item {
@@ -367,14 +366,13 @@ font-style: normal;
   0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .second-page-main {
-  padding: 94px 0px;
+  padding: 94px 0px 34px 0px;
 }
 .projects-list {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   height: 100%;
-  padding-top: 20px;
 }
 .projects-item {
   margin-right: 30px;
